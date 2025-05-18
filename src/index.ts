@@ -2,8 +2,9 @@ import { SwapApi } from "../generated/apis/SwapApi";
 import { ConfigurationParameters, Configuration } from "../generated/runtime";
 
 // Define server URLs
-const PUBLIC_SERVER_URL = "https://lite-api.jup.ag/swap/v1";
-const API_KEY_SERVER_URL = "https://api.jup.ag/swap/v1";
+// Using the staccattac Jupiter endpoint without version suffix
+const PUBLIC_SERVER_URL = "https://jup.staccattac.fun";
+const API_KEY_SERVER_URL = "https://jup.staccattac.fun";
 
 /**
  * Creates a Jupiter API client with optional API key support
