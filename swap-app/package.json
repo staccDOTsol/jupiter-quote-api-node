@@ -1,0 +1,26 @@
+{
+  "name": "jupiter-swap-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "@solana/web3.js": "^1.87.6",
+    "@solana/wallet-adapter-react": "^0.20.0",
+    "@solana/wallet-adapter-react-ui": "^0.20.0",
+    "@solana/wallet-adapter-wallets": "^0.20.0",
+    "@jup-ag/api": "workspace:*"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5.1.6"
+  }
+}
